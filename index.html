@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Vibe</title>
+    <link rel="stylesheet" href="./fonts/TTNorms-Italic/style.css" />
+    <link rel="stylesheet" href="./fonts/TTNorms-Regular/style.css" />
+    <link rel="stylesheet" href="./fonts/TTNorms-Bold/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-nav">
+          <a class="logo" href="#!"><img src="./img/logo.svg" alt="logo" /></a>
+          <div class="nav" id="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#!">О нас</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#!">Цены</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#!">Забронировать</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#!">Кабинеты</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#!">Контакты</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link phone" href="tel:+74955554400"
+                  >+7 (495) 555-44-00</a
+                >
+              </li>
+            </ul>
+          </div>
+          <button class="nav-button" id="nav-btn">
+            <img id="nav-btn-img" src="./img/icons/burger menu.svg" alt="" />
+          </button>
+          <a class="phone-img" href="tel:+74955554400"
+            ><img src="./img/icons/phone.svg" alt=""
+          /></a>
+        </div>
+      </div>
+    </header>
+    <div id="modal-1" class="fade-block hidden">
+      <div class="modal-window">
+        <h2>Не нашли ответ,<br />задайте свой вопрос.</h2>
+
+        <div class="section10-tel">
+          <img src="./img/icons/phone.svg" alt="" />
+          <input
+            id="phone"
+            data-mask="phone"
+            placeholder="+7 ( _ _ _ ) _ _ _ - _ _ - _ _"
+          />
+        </div>
+        <button id="modal-1-btn" class="section10-btn btn">Отправить</button>
+        <button id="modal-1-close" class="modal-1-close">
+          <img src="./img/icons/close_m.svg" alt="close" />
+        </button>
+        <div class="section10-checkbox">
+          <label>
+            <input type="checkbox" id="checkbox" class="real-checkbox" />
+            <span class="custom-checkbox"></span>
+            Я согласен(на) на обработку моих персональных данных в соответствии
+            с <span><a href="#!">условиями</a></span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <section class="section1 section">
+      <div class="container">
+        <div class="section1-text">
+          <h1>Кабинеты для бьюти мастеров всех профессий</h1>
+          <p>
+            Занимайтесь любимым делом, зарабатывая
+            <span>до 1 000 000 руб./год</span>, арендуя локации в одной из 2
+            точек сети Vibe Coworking
+          </p>
+          <div class="section1-btn btn">
+            <a href="#!">Забронировать время</a>
+          </div>
+        </div>
+        <div class="section1-img">
+          <img src="./img/main_photo.png" alt="img" />
+        </div>
+        <div class="section1-decor">
+          <img src="./img/decor_01.png" alt="img" />
+        </div>
+      </div>
+    </section>
+    <section class="section2 section">
+      <div class="container">
+        <h2>Пользуйтесь всеми удобствами и возможностями нашего сервиса</h2>
+        <div class="section2-parent">
+          <div class="div1"><img src="./img/img_01.png" alt="img_01" /></div>
+          <div class="div2"><img src="./img/img_02.png" alt="img_02" /></div>
+          <div class="div3"><img src="./img/img_03.png" alt="img_03" /></div>
+          <div class="div4"><img src="./img/img_04.png" alt="img_04" /></div>
+          <div class="div5"><img src="./img/img_05.png" alt="img_05" /></div>
+        </div>
+      </div>
+    </section>
+    <section class="section3 section">
+      <div class="container">
+        <div class="section3-wrapper">
+          <div class="section3-img">
+            <img src="./img/img_06.png" alt="img_06" />
+          </div>
+          <div class="section3-text">
+            <h2>ВРЕМЯ ОТКРЫТЬ НОВОЕ ДЕЛО В НОВОМ ПРОСТРАНСТВЕ</h2>
+            <p>
+              Нам обидно слышать истории, где талантливая фея сферы красоты
+              отдает салону примерно 60% выручки. Искренне считаем, что
+              бьюти-предприниматели достойны большего. Поэтому создали место,
+              помогающее работать и тратить прибыль только на себя.
+            </p>
+            <div class="detailed">
+              <a href="#!">Развернуть</a>
+              <img src="./img/icons/check.png" alt="" />
+            </div>
+            <div class="section3-decor">
+              <img src="./img/decor_02.png" alt="img_06" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section4 section">
+      <div class="container">
+        <h2>Доступные цены</h2>
+        <p>
+          Ввели 3 тарифа для почасовой аренды, аренды на всю смену и
+          долгосрочной аренды. Каждый сможет подобрать лучший для себя вариант
+        </p>
+        <div class="cards">
+          <div class="card">
+            <div class="card-text">
+              <h3>Почасовая аренда</h3>
+              <div class="card-mode">
+                <h4>ул. Пятницкая 62с7</h4>
+                <div class="card-week">
+                  <p>Пн-Пт :</p>
+                  <span class="card-week-price">500 ₽</span>
+                  <a href="#!">в час</a>
+                </div>
+                <div class="card-week">
+                  <p>Сб-Вс :</p>
+                  <span class="card-week-price">500 ₽</span>
+                  <a href="#!">в час</a>
+                </div>
+              </div>
+              <div class="card-mode">
+                <h4>ул. Серебрянническая набережная 27</h4>
+                <div class="card-week">
+                  <p>Пн-Пт :</p>
+                  <span class="card-week-price">400 ₽</span>
+                  <a href="#!">в час</a>
+                </div>
+                <div class="card-week">
+                  <p>Сб-Вс :</p>
+                  <span class="card-week-price">450 ₽</span>
+                  <a href="#!">в час</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-btn btn">
+              <a href="#!">Выбрать время</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-text">
+              <h3>Почасовая аренда</h3>
+              <div class="card-mode">
+                <h4>ул. Пятницкая 62с7</h4>
+                <div class="card-week">
+                  <p>Пн-Пт :</p>
+                  <span class="card-week-price">4500 ₽</span>
+                  <a href="#!">в час</a>
+                </div>
+                <div class="card-week">
+                  <p>Сб-Вс :</p>
+                  <span class="card-week-price">5000 ₽</span>
+                  <a href="#!">в час</a>
+                </div>
+              </div>
+              <div class="card-mode">
+                <h4>ул. Серебрянническая набережная 27</h4>
+                <div class="card-week">
+                  <p>Пн-Пт :</p>
+                  <span class="card-week-price">3500 ₽</span>
+                  <a href="#!">в час</a>
+                </div>
+                <div class="card-week">
+                  <p>Сб-Вс :</p>
+                  <span class="card-week-price">4000 ₽</span>
+                  <a href="#!">в час</a>
+                </div>
+              </div>
+              <p class="card-star">*1 расчетный день с 10:00 до 22:00</p>
+            </div>
+            <div class="card-btn btn">
+              <a href="#!">Выбрать время</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-text">
+              <h3>Почасовая аренда</h3>
+              <div class="card-mode">
+                <h4>ул. Пятницкая 62с7</h4>
+                <div class="card-week">
+                  <p>С окном :</p>
+                  <span class="card-week-price">?</span>
+                  <a href="#!">узнать цену</a>
+                </div>
+                <div class="card-week">
+                  <p>Без окна :</p>
+                  <span class="card-week-price">?</span>
+                  <a href="#!">узнать цену</a>
+                </div>
+              </div>
+              <div class="card-mode">
+                <h4>ул. Серебрянническая набережная 27</h4>
+                <div class="card-week">
+                  <p>С окном :</p>
+                  <span class="card-week-price">?</span>
+                  <a href="#!">узнать цену</a>
+                </div>
+                <div class="card-week">
+                  <p>Без окна :</p>
+                  <span class="card-week-price">?</span>
+                  <a href="#!">узнать цену</a>
+                </div>
+              </div>
+              <p class="card-star">*Долгосрочной аренда - от 1 месяца</p>
+            </div>
+            <div class="card-btn btn">
+              <a href="#!">Выбрать время</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section5 section">
+      <div class="container">
+        <div class="section5-wrapper">
+          <div class="section5-text">
+            <h2>Для кого подойдет?</h2>
+            <p>
+              В каждом кабинете установлены гидравлические кушетки, лампы-лупы,
+              косметологические столики, лаборатории и другое оборудование -
+              такой набор подходит мастерам почти всех бьюти профессий
+            </p>
+            <div class="btn">
+              <a href="#!">Выбрать филиал</a>
+            </div>
+          </div>
+          <div class="section5-cards">
+            <div class="section5-card">
+              <img src="./img/cosmetologist.png" alt="" />
+              <p><span>Ко</span>сметолог</p>
+            </div>
+            <div class="section5-card">
+              <img src="./img/massage.png" alt="" />
+              <p><span>Ма</span>ссажист</p>
+            </div>
+            <div class="section5-card">
+              <img src="./img/brovist.png" alt="" />
+              <p><span>Бр</span>овист</p>
+            </div>
+            <div class="section5-card">
+              <img src="./img/lashmaker.png" alt="" />
+              <p><span>Лэ</span>шмейкер</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section6 section">
+      <div class="container">
+        <h2>Преимущества коворкинга</h2>
+        <p>
+          Создали наши пространства для того, чтобы гости кайфовали и
+          расслаблялись, а партнеры получали удовольствие от сотрудничества.
+          <span>Для этого реализовали:</span>
+        </p>
+        <div class="section6-cards">
+          <div class="section6-card">
+            <img src="./img/icons/lock.png" alt="" />
+            <div class="section6-card-text">
+              <h3>Ящики с замком для хранения вещей</h3>
+              <p>Оставляйте все необходимое — защиту гарантируем</p>
+            </div>
+            <h4>01</h4>
+          </div>
+          <div class="section6-card">
+            <img src="./img/icons/eqipments.png" alt="" />
+            <div class="section6-card-text">
+              <h3>Возможность покупки расходников</h3>
+              <p>
+                Администратор сделает заказ любых средств различных торговых
+                марок
+              </p>
+            </div>
+            <h4>02</h4>
+          </div>
+          <div class="section6-card">
+            <img src="./img/icons/tea.png" alt="" />
+            <div class="section6-card-text">
+              <h3>Wi-Fi, чай и кофе для вас и клиентов</h3>
+              <p>Всегда есть, чем заняться в перерывах</p>
+            </div>
+            <h4>03</h4>
+          </div>
+          <div class="section6-card">
+            <img src="./img/icons/shape.png" alt="" />
+            <div class="section6-card-text">
+              <h3>Bluetooth-колонки для кабинетов</h3>
+              <p>Слушайте любимую музыку, можно даже подпевать</p>
+            </div>
+            <h4>04</h4>
+          </div>
+          <div class="section6-card">
+            <img src="./img/icons/light.png" alt="" />
+            <div class="section6-card-text">
+              <h3>Профессиональный свет для фотосъемки</h3>
+              <p>
+                С техникой разберется даже новичок, а снимки точно получатся
+              </p>
+            </div>
+            <h4>05</h4>
+          </div>
+          <div class="section6-card">
+            <img src="./img/icons/administrator.png" alt="" />
+            <div class="section6-card-text">
+              <h3>Услуги администратора</h3>
+              <p>Вежливо и дружелюбно встретит ваших клиентов</p>
+            </div>
+            <h4>06</h4>
+          </div>
+        </div>
+        <div class="detailed">
+          <a href="#!">Развернуть</a>
+          <img src="./img/icons/check.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="section7 section">
+      <div class="container">
+        <div class="section7-wrapper">
+          <div class="section7-text">
+            <h2>Самостоятельное бронирование</h2>
+            <p>
+              Выберите время и забронируйте слот времени из доступа в Yclients
+            </p>
+            <div class="btn">
+              <a href="#!">Выбрать время</a>
+            </div>
+          </div>
+          <img class="section7-img" src="./img/img_07.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="section8 section">
+      <div class="container">
+        <h2>Отвечаем на популярные вопросы</h2>
+        <div class="questions-answers">
+          <div class="question-answer">
+            <div class="question" data-name="question">
+              <p>Какая площадь кабинетов?</p>
+              <img src="./img/btn_up_.png" alt="" />
+            </div>
+            <div class="hidden">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                itaque adipisci vero nihil doloremque sequi quas nobis incidunt,
+                ducimus repellat.Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Nulla itaque adipisci vero nihil doloremque
+                sequi quas nobis incidunt, ducimus repellat.
+              </p>
+            </div>
+          </div>
+          <div class="question-answer">
+            <div class="question" data-name="question">
+              <p>Могу я оставлять все свои инструменты у вас?</p>
+              <img src="./img/btn_up_.png" alt="" />
+            </div>
+            <div class="hidden">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                itaque adipisci vero nihil doloremque sequi quas nobis incidunt,
+                ducimus repellat.Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Nulla itaque adipisci vero nihil doloremque
+                sequi quas nobis incidunt, ducimus repellat.
+              </p>
+            </div>
+          </div>
+          <div class="question-answer">
+            <div class="question" data-name="question">
+              <p>Вдруг мои клиенты не смогут найти ваш коворкинг?</p>
+              <img src="./img/btn_up_.png" alt="" />
+            </div>
+            <div class="hidden">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                itaque adipisci vero nihil doloremque sequi quas nobis incidunt,
+                ducimus repellat.Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Nulla itaque adipisci vero nihil doloremque
+                sequi quas nobis incidunt, ducimus repellat.
+              </p>
+            </div>
+          </div>
+          <div class="question-answer">
+            <div class="question" data-name="question">
+              <p>
+                Если ли требования к минимальному количеству часов для работы в
+                вашем коворкинге?
+              </p>
+              <img src="./img/btn_up_.png" alt="" />
+            </div>
+            <div class="hidden">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                itaque adipisci vero nihil doloremque sequi quas nobis incidunt,
+                ducimus repellat.Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Nulla itaque adipisci vero nihil doloremque
+                sequi quas nobis incidunt, ducimus repellat.
+              </p>
+            </div>
+          </div>
+          <div class="question-answer">
+            <div class="question" data-name="question">
+              <p>
+                Мне не очень удобно добираться в ваш коворкинг. У вас есть
+                другие помещения?
+              </p>
+              <img src="./img/btn_up_.png" alt="" />
+            </div>
+            <div class="hidden">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                itaque adipisci vero nihil doloremque sequi quas nobis incidunt,
+                ducimus repellat.Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Nulla itaque adipisci vero nihil doloremque
+                sequi quas nobis incidunt, ducimus repellat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button id="section8-btn" class="section8-btn btn">
+          <!-- <a href="#!">Задать другой вопрос</a> -->
+          Задать другой вопрос
+        </button>
+      </div>
+    </section>
+    <section class="section9 section">
+      <div class="container">
+        <h2>Vibe coworking глазами постоянных клиентов</h2>
+        <div class="carousel">
+          <img src="./img/feedback.png" alt="" />
+          <img src="./img/feedback.png" alt="" />
+          <img src="./img/feedback.png" alt="" />
+          <img src="./img/feedback.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="section10 section">
+      <div class="container">
+        <div class="section10-wrapper">
+          <div class="section10-text">
+            <h2>Дарим сертификат 500 рублей без обязательств</h2>
+            <p>Введите номер, чтобы зафиксировать сертификат за собой</p>
+            <div class="section10-tel">
+              <img src="./img/icons/phone.svg" alt="" />
+              <input
+                id="phone"
+                data-mask="phone"
+                placeholder="+7 ( _ _ _ ) _ _ _ - _ _ - _ _"
+              />
+            </div>
+            <div class="section10-btn btn">
+              <a href="#!">Отправить</a>
+            </div>
+            <div class="section10-checkbox">
+              <label>
+                <input type="checkbox" id="checkbox" class="real-checkbox" />
+                <span class="custom-checkbox"></span>
+                Я согласен(на) на обработку моих персональных данных в
+                соответствии с <span><a href="#!">условиями</a></span>
+              </label>
+            </div>
+          </div>
+          <div class="section10-img">
+            <img src="./img/img_08.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section11 section">
+      <div class="container">
+        <div class="section11-wrapper">
+          <img class="section11-img" src="./img/img_09.png" alt="" />
+          <div class="section11-text">
+            <h2>SEO Блок</h2>
+            <p>
+              Работая в бьюти-сфере 13 лет, в последние 5 стали активно следить
+              за открывающимися коворкингами. Анализировали, фиксировали успехи,
+              искали ошибки и в 2019 создали свое пространство.
+            </p>
+            <div class="detailed">
+              <a href="#!">Подробнее</a>
+              <img src="./img/icons/check.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section12 section">
+      <div class="container">
+        <div class="section12-content">
+          <div class="section12-content-left">
+            <h2>
+              Скачайте планировку кабинетов и узнайте стоимость на долгосрочную
+              аренду
+            </h2>
+            <div class="section12-btn btn">
+              <a href="#!">Задать другой вопрос</a>
+            </div>
+          </div>
+          <img class="section12-img" src="./img/img_10_plan.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="section13 section">
+      <div class="container">
+        <h2>Адреса и контакты филиалов</h2>
+        <div class="section13-wrapper">
+          <div class="section13-text">
+            <div>
+              <img src="./img/icons/metro.png" alt="" />
+              <span>Добрынинская</span>
+              <p>ул. Пятницкая 62с7</p>
+              <div class="section13-text-contacts">
+                <a href="tel:+79854554437">+7(985)455-44-37</a>
+                <a href="#!"
+                  ><img src="./img/icons/whatsapp.png" alt="whatsapp"
+                /></a>
+                <a href="#!"
+                  ><img src="./img/icons/telegramm.png" alt="telegramm"
+                /></a>
+              </div>
+              <p>ГРАФИК РАБОТЫ:<br />10:00 - 22:00</p>
+            </div>
+            <div>
+              <img src="./img/icons/metro.png" alt="" />
+              <span>Курская</span>
+              <p>ул. Серебряническая набережная 27</p>
+              <div class="section13-text-contacts">
+                <a href="tel:+74959999999">+7(495)999-99-99</a>
+                <a href="#!"
+                  ><img src="./img/icons/whatsapp.png" alt="whatsapp"
+                /></a>
+                <a href="#!"
+                  ><img src="./img/icons/telegramm.png" alt="telegramm"
+                /></a>
+              </div>
+              <p>ГРАФИК РАБОТЫ:<br />10:00 - 22:00</p>
+            </div>
+          </div>
+          <div class="section13-img">
+            <img src="./img/img_11_map.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="logo">
+            <a href="#!"><img src="./img/logo.svg" alt="logo" /></a>
+          </div>
+          <ul class="footer-nav-1">
+            <li>О нас</li>
+            <li>Цены</li>
+            <li>Забронировать</li>
+            <li>Контакты</li>
+          </ul>
+          <ul class="footer-nav-2">
+            <li>Статьи</li>
+            <li>Инвестиции</li>
+            <li>Правовая информация</li>
+          </ul>
+          <ul class="footer-phone">
+            <li class="phone">
+              <a href="tel:+74955554400">+7 (495) 555-44-00</a>
+            </li>
+            <li>
+              <img src="./img/icons/phone.png" alt="" />
+              <span>Звонок бесплатный</span>
+            </li>
+            <li>
+              <div class="social">
+                <a href="#!"
+                  ><img src="./img/icons/telegramm.png" alt="telegramm"
+                /></a>
+                <a href="#!"
+                  ><img src="./img/icons/instagram.png" alt="instagram"
+                /></a>
+                <a href="#!"
+                  ><img src="./img/icons/whatsapp.png" alt="whatsapp"
+                /></a>
+              </div>
+            </li>
+          </ul>
+          <div class="address-1 adress">
+            <img src="./img/icons/metro.png" alt="" />
+            <span>Добрынинская</span>
+            <p>ул. Пятницкая 62с7</p>
+            <div class="section13-text-contacts">
+              <a href="tel:+79854554437">+7(985)455-44-37</a>
+              <a href="#!"
+                ><img src="./img/icons/whatsapp.png" alt="whatsapp"
+              /></a>
+              <a href="#!"
+                ><img src="./img/icons/telegramm.png" alt="telegramm"
+              /></a>
+            </div>
+            <p>График работы: 10:00 - 22:00</p>
+          </div>
+          <div class="address-2 adress">
+            <img src="./img/icons/metro.png" alt="" />
+            <span>Курская</span>
+            <p>ул. Серебряническая набережная 27</p>
+            <div class="section13-text-contacts">
+              <a href="tel:+74959999999">+7(495)999-99-99</a>
+              <a href="#!"
+                ><img src="./img/icons/whatsapp.png" alt="whatsapp"
+              /></a>
+              <a href="#!"
+                ><img src="./img/icons/telegramm.png" alt="telegramm"
+              /></a>
+            </div>
+            <p>График работы: 10:00 - 22:00</p>
+          </div>
+        </div>
+        <div class="footer-down">
+          <a href="#!">Политика конфидециальности</a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
