@@ -172,6 +172,9 @@
 }
 
 @media (max-width: 520px) {
+  body {
+    overflow-x: hidden;
+  }
   .section + .section {
     padding-top: 50px;
   }
