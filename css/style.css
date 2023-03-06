@@ -417,10 +417,12 @@ a {
   margin-bottom: 40px;
 }
 
+.section9 img {
+  max-width: 100%;
+}
+
 .section9 .carousel {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 10px;
+  display: flex;
   justify-content: space-between;
 }
 

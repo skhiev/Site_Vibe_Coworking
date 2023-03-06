@@ -51,3 +51,30 @@ btnModal1.onclick = () => {
 closeModal1.onclick = () => {
   modal1.classList.toggle("hidden");
 };
+
+// Carusel
+
+$(document).ready(function () {
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    dots: true,
+    autoplay: true,
+    responsive: {
+      // breakpoint from 0 up
+      0: {
+        items: 1,
+        margin: 20,
+      },
+      // breakpoint from 600 up
+      601: {
+        items: 2.5,
+        margin: 40,
+      },
+      // breakpoint from 1000 up
+      1001: {
+        items: 3,
+        margin: 70,
+      },
+    },
+  });
+});
